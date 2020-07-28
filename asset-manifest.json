@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Address-Book/static/css/main.bd1d08e5.chunk.css",
+    "main.js": "/Address-Book/static/js/main.661ac925.chunk.js",
+    "main.js.map": "/Address-Book/static/js/main.661ac925.chunk.js.map",
+    "runtime-main.js": "/Address-Book/static/js/runtime-main.5ff1c31c.js",
+    "runtime-main.js.map": "/Address-Book/static/js/runtime-main.5ff1c31c.js.map",
+    "static/js/2.353c62d5.chunk.js": "/Address-Book/static/js/2.353c62d5.chunk.js",
+    "static/js/2.353c62d5.chunk.js.map": "/Address-Book/static/js/2.353c62d5.chunk.js.map",
+    "index.html": "/Address-Book/index.html",
+    "precache-manifest.197d1466521e04f0e615f276326cab7c.js": "/Address-Book/precache-manifest.197d1466521e04f0e615f276326cab7c.js",
+    "service-worker.js": "/Address-Book/service-worker.js",
+    "static/css/main.bd1d08e5.chunk.css.map": "/Address-Book/static/css/main.bd1d08e5.chunk.css.map",
+    "static/js/2.353c62d5.chunk.js.LICENSE.txt": "/Address-Book/static/js/2.353c62d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ff1c31c.js",
+    "static/js/2.353c62d5.chunk.js",
+    "static/css/main.bd1d08e5.chunk.css",
+    "static/js/main.661ac925.chunk.js"
+  ]
+}
