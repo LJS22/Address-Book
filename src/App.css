@@ -2,8 +2,6 @@ body{
   height: 100vh;
   width: 100vw;
   background-color: #52BAD5;
-  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/twisted-colored-numbers-on-white-background-peter-hermes-furian.jpg");
-  background-size: 100% 100%;
 }
 .App{
   background-color: orangered;
@@ -16,9 +14,9 @@ body{
 }
 
 #to-do-form input{
-  background-color: #363636;
+  background-color: #888;
   border: 0; 
-  color: #fff;
+  color: #000;
   width: 200px;
   height: 50px;
   margin: 20px;
