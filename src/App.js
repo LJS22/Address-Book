@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import ListItems from './ListItems'
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       items: [],
       currentItem: {
@@ -13,11 +13,8 @@ class App extends React.Component {
         key: ''
       }
     }
-
-
-
-
   }
+
   addItem = (e) => {
     e.preventDefault();
     const newItem = this.state.currentItem;
@@ -32,6 +29,7 @@ class App extends React.Component {
       })
     }
   }
+
   handleInput = (e) => {
     this.setState({
       currentItem: {
@@ -40,14 +38,15 @@ class App extends React.Component {
       }
     })
   }
+
   deleteItem = (key) => {
     const filteredItems = this.state.items.filter(item =>
       item.key !== key);
     this.setState({
       items: filteredItems
     })
-
   }
+
   setUpdate = (text, key) => {
     const items = this.state.items;
     items.map(item => {
@@ -59,17 +58,21 @@ class App extends React.Component {
       items: items
     })
   }
+
   render() {
+
+    const { currentItem, items } = this.state;
+
     return (
       <div className="App">
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
-            <input type="text" placeholder="Enter Number" value={this.state.currentItem.text} onChange={this.handleInput}></input>
+            <input type="text" placeholder="Enter Number" value={currentItem.text} onChange={this.handleInput}></input>
             <button type="submit">Add</button>
           </form>
-          <p>{this.state.items.text}</p>
+          <p>{items.text}</p>
 
-          <ListItems items={this.state.items} deleteItem={this.deleteItem} setUpdate={this.setUpdate} />
+          <ListItems items={items} deleteItem={this.deleteItem} setUpdate={this.setUpdate} />
 
         </header>
       </div>
